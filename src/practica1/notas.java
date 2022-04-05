@@ -9,20 +9,20 @@ import java.util.Scanner;
  *
  */
 public class notas {
-	// declaramos la variables que nos hacen falta
+	// declaramos las variables que nos hacen falta
 	double uf1, uf2, uf3;
 	double acu1, acu2, acu3, def;
-	// utilizames ecaner para poder introducir datos
+	// utilizamos scanner para poder introducir datos
 	Scanner entrada = new Scanner(System.in);
 
-	/// vamos ca crear un metodo para ingresar
+	/// vamos a crear un metodo para ingresar
 
 	/**
 	 * Con este método definimos los datos de las 3 notas del estudiante
 	 * 
 	 */
 	public void IngresaNotas() {
-		// cuando ejeuctamos este metodo lo primnero que queremos es que nos pida notas
+		// cuando ejecutamos este metodo lo primero que queremos es que nos pida notas
 		System.out.println("ingrese las notas del estudiante");
 
 		System.out.print("ingrese nota 1: ");
@@ -38,7 +38,7 @@ public class notas {
 
 	}
 
-	// metodo para comprobar bien entroduccion de notas
+	// metodo para comprobar bien introduccion de notas
 
 	/**
 	 * Con este método comprobaremos que los datos introducidos son correctos
@@ -78,7 +78,7 @@ public class notas {
 
 		def = acu1 + acu2 + acu3;
 
-		// hasta aqui la tenemos calculada peor no la mostramos
+		// hasta aqui la tenemos calculada pero no la mostramos
 	}
 
 	/**
@@ -121,7 +121,7 @@ public class notas {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// creamos mecanimos para llamar a cualquier metodo fuero de la clase
+		// creamos mecanismos para llamar a cualquier metodo fuera de la clase
 		notas fc = new notas();
 
 		fc.IngresaNotas();
